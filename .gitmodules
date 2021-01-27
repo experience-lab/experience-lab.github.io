@@ -1,3 +1,6 @@
 [submodule "bifurcation"]
 	path = bifurcation
 	url = https://github.com/topological-ragnar/bifurcation
+[submodule "swallowtail"]
+	path = swallowtail
+	url = https://github.com/topological-ragnar/swallowtail
