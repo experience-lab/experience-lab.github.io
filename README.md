@@ -1,5 +1,3 @@
-# higher-physics
+# theory-dust
 
-So far I'm going to use this page to host physics and math demos on topics that are interesting to me.
-
-[Here is a talk](https://www.youtube.com/watch?v=TKVVgQ5bT-8) by Sir Michael Berry that inspires the kind of ideas I'd like to explore here.
+Motes of ideas which I will not try to integrate into a coherent view of anything, but just present as such, as a kind of gallery of concepts I find interesting and pervasive.
