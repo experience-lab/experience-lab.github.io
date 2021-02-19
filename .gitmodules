@@ -7,3 +7,6 @@
 [submodule "hopf-bifurcation"]
 	path = hopf-bifurcation
 	url = https://github.com/topological-ragnar/hopf-bifurcation
+[submodule "blog"]
+	path = blog
+	url = https://github.com/theory-dust/blog
