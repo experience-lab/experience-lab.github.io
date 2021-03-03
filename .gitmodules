@@ -10,3 +10,6 @@
 [submodule "blog"]
 	path = blog
 	url = https://github.com/theory-dust/blog
+[submodule "FitzHugh-Nagumo"]
+	path = FitzHugh-Nagumo
+	url = https://github.com/topological-ragnar/FitzHugh-Nagumo.git
