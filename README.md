@@ -1,3 +1,3 @@
-# theory-dust
+# science-in-silico
 
-Motes of ideas which I will not try to integrate into a coherent view of anything, but just present as such, as a kind of gallery of concepts I find interesting and pervasive.
+Welcome! This is a page for some interactive science/math visualizations/simulations I've written for the browser. I plan to record some videos explaining how to use them.
