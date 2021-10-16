@@ -1,6 +1,6 @@
 # The Internet Science Experience Lab
 
-Welcome! This is a page for some interactive science/math visualizations/simulations I've written for the browser (these will likely not function on mobile). Below you will find some links. I plan to record some videos explaining how to use them.
+Welcome! This is a page for some interactive science/math visualizations/simulations I've written for the browser (these will likely not function on mobile, please use a computer and a modern browser such as firefox or chrome). Below you will find some links. I'm in the process of writing up some background and instructions.
 
 ##### Table of Contents  
 
