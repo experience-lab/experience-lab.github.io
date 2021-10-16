@@ -18,17 +18,27 @@ A dynamical system is a way of talking about a system evolving in time. It is co
   
 where f is a function from V to V. It can be useful to picture f as a vector field on V, like the velocity field of a fluid. This equation then says that the system moves as would a mote in the flow. We can visualize this when n is small, even drawing the paths of several motes at once, which would represent the fate of several initial configurations simultaneously, and tracing out their streamlines, which represents the history of the configuration.
 
+<a name="hopfbifurc"/>
+
+### Hopf Bifurcation
+
 Here is an example which was created using the Hopf bifurcation with the motes intially arranged as an evenly spaced grid. As the time progresses, they are caught up in the flow and pulled towards the circular eddy.
 
 <p align="center">
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/6211319/137596260-adfe9cf7-8608-4118-ba0f-4bb99c52b391.png">
 </p>
 
-This circular eddy is called a limit cycle. In this case it is an attractive limit cycle, meaning nearby points are sucked into its orbit. Systems with attractive limit cycles exhibit spontaneous oscillation
+This circular eddy is an example of a limit cycle. In this case it is an attractive limit cycle, meaning nearby points are sucked into its orbit. Systems with attractive limit cycles exhibit spontaneous oscillation. For example, the air blown into a woodwind instrument or across a blade of grass excites a spontaneous oscillation of the reed and can be turned into music by tuning the resonant cavity of the instrument.
 
-<a name="hopfbifurc"/>
+<iframe src="https://www.youtube.com/embed/pW0JfEBE9h8" 
+    width="560" 
+    height="315"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
 
-### Hopf Bifurcation
+
+
 
 [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
 
