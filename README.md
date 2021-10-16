@@ -30,12 +30,7 @@ Here is an example which was created using the Hopf bifurcation with the motes i
 
 This circular eddy is an example of a limit cycle. In this case it is an attractive limit cycle, meaning nearby points are sucked into its orbit. Systems with attractive limit cycles exhibit spontaneous oscillation. For example, the air blown into a woodwind instrument or across a blade of grass excites a spontaneous oscillation of the reed and can be turned into music by tuning the resonant cavity of the instrument.
 
-<iframe src="https://www.youtube.com/embed/pW0JfEBE9h8" 
-    width="560" 
-    height="315"
-    frameborder="0" 
-    allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pW0JfEBE9h8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
