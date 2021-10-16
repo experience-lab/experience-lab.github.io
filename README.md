@@ -4,10 +4,11 @@ Welcome! This is a page for some interactive science/math visualizations/simulat
 
 # Dynamical Systems and Bifurcations
 
-A dynamical system is composed of a space of configurations and a prescription for the time evolution of those configurations. One class of dynamical systems describes the configuration as a vector 
-<img src="https://render.githubusercontent.com/render/math?math=v = (v_1,\ldots,v_n)"> in some n-dimensional vector space and specifies the time evolution by giving a formula for the rate of change of v which looks like
+A dynamical system is composed of a space of configurations and a prescription for the time evolution of those configurations. One class of dynamical systems describes the configuration as a vector v in some n-dimensional vector space V and specifies the time evolution by giving a formula for the rate of change of v which looks like
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{dv}{dt} = f(v)">
+
+where f is a function from V to V. It can be useful to picture f as a vector field on V, like the velocity field of some fluid. This equation then says that the system moves as would a mote in the flow.
 
 [Swallow tail bifurcation](https://experience-lab.github.io/swallowtail/)
 
