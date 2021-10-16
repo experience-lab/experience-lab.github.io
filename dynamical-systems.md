@@ -45,7 +45,7 @@ Although the system has infinitely many variables (its configuration is itself a
 The Hopf bifurcation has three relevant parameters a, b, and c. As an equation we can write it
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\frac{dz}{dt} = c `+' a z \plus b \bar{z} \plus z |z|^2">
+<img src="https://render.githubusercontent.com/render/math?math="\frac{dz}{dt} = c + a z + b \bar{z} + z |z|^2"">
 </p>
 
 * [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
