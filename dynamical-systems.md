@@ -50,7 +50,9 @@ It is modelled with three parameters a, b, and c (real numbers).
 * b controls the sign and strength of circulation. It is 1 by default.
 * c adds a constant velocity along the x axis. When c begins to overpower the circulation b, there are new bifurcations and the limit cycle can be destroyed.
 
+<p align="center">
 <img width="663" alt="image" src="https://user-images.githubusercontent.com/6211319/137603456-261dd4e1-dd95-41a3-a3d7-c695ccb69f22.png">
+</p>
 
 We can compactly express the time evolution equation by expressing the configuration (a point in the 2d plane) as a complex number z:
 
