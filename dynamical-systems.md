@@ -42,20 +42,23 @@ This phenomenon can be simplified by considering a fluid flowing in a plane perp
 
 Although the system has infinitely many variables (its configuration is itself a vector field) and displays intricate phenomena including turbulence, the transition from steady to oscillating can be understood in a two-variable model called the Hopf bifurcation. Transitions like these in dynamical systems are generally called bifurcations and the classification of bifurcations is a problem in topology.
 
-We will model the Hopf bifurcation with three parameters a, b, and c (real numbers). We can compactly express the time evolution equation by expressing the configuration (a point in the 2d plane) as a complex number z:
+[Here is the simulation of the Hopf bifurcation.](https://experience-lab.github.io/hopf-bifurcation/)
+
+It is modelled with three parameters a, b, and c (real numbers).
+
+* a is the tuning parameter of the bifurcation: when a <= 0, the system has a stable fixed point - every starting configuration eventually spirals into this stationary state. When a > 0, this fixed point becomes unstable and "emits" a stable limit cycle - almost every starting configuration will eventually join this oscillating cycle.
+* b controls the sign and strength of circulation. It is 1 by default.
+* c adds a constant velocity along the x axis. When c begins to overpower the circulation b, there are new bifurcations and the limit cycle can be destroyed.
+
+<img width="663" alt="image" src="https://user-images.githubusercontent.com/6211319/137603456-261dd4e1-dd95-41a3-a3d7-c695ccb69f22.png">
+
+We can compactly express the time evolution equation by expressing the configuration (a point in the 2d plane) as a complex number z:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\frac{dz}{dt} = c %2b (a %2b i b) z - z |z|^2">
 </p>
 
-With c = 0, and b = 0, we can rewrite this as a pair of equations for the radius r and the angle θ:
 
-<p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\frac{dz}{dt} = c %2b a z %2b b \bar{z} %2b z |z|^2">
-<img src="https://render.githubusercontent.com/render/math?math=\frac{dz}{dt} = c %2b a z %2b b \bar{z} %2b z |z|^2">
-</p>
-
-* [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
 
 <a name="swallowtail"/>
 
