@@ -6,7 +6,7 @@ Welcome! This is a page for some interactive science/math visualizations/simulat
 
 A dynamical system is composed of a space of configurations and a prescription for the time evolution of those configurations. One class of dynamical systems describes the configuration as a vector v in 
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dv}{dt} = f(v,t)">
 
 [Swallow tail bifurcation](https://experience-lab.github.io/swallowtail/)
 
