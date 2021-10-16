@@ -45,7 +45,7 @@ Although the system has infinitely many variables (its configuration is itself a
 We will model the Hopf bifurcation with three parameters a, b, and c (real numbers). We can compactly express the time evolution equation by expressing the configuration (a point in the 2d plane) as a complex number z:
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\frac{dz}{dt} = c %2b (a %2b i b) z %2b z |z|^2">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dz}{dt} = c %2b (a %2b i b) z - z |z|^2">
 </p>
 
 With c = 0, and b = 0, we can rewrite this as a pair of equations for the radius r and the angle θ:
