@@ -1,5 +1,19 @@
 ## Dynamical Systems and Bifurcations
 
+##### Table of Contents  
+
+[Hopf Bifurcation](#hopfbifurc)
+
+* [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
+
+[Swallowtail Bifurcation](#swallowtail)
+
+* [Swallow tail bifurcation](https://experience-lab.github.io/swallowtail/)
+
+[Fitzhugh-Nagumo Neuron Model](#fitzneuron)
+
+* [Fitzhugh-Nagumo model](https://experience-lab.github.io/FitzHugh-Nagumo/)
+
 A dynamical system is a way of talking about a system evolving in time. It is composed of a space of configurations of the system and a prescription for the time evolution of those configurations. One class of dynamical systems describes the configuration as a vector v in some n-dimensional vector space V and specifies the time evolution by giving a formula for the rate of change of v which looks like
 
 <p align="center">
@@ -28,3 +42,16 @@ This phenomenon can be simplified by considering a fluid flowing in a plane perp
 
 Although the system has infinitely many variables (its configuration is itself a vector field) and intricate phenomena, including turbulence, the transition from steady to oscillating can be understood in a two-variable model. Transitions like these in dynamical systems are called bifurcations
 
+* [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
+
+<a name="swallowtail"/>
+
+### Swallowtail Bifurcation
+
+* [Swallow tail bifurcation](https://experience-lab.github.io/swallowtail/)
+
+<a name = "fitzneuron"/>
+
+### Fitzhugh-Nagumo Neuron Model
+
+* [Fitzhugh-Nagumo model](https://experience-lab.github.io/FitzHugh-Nagumo/)
