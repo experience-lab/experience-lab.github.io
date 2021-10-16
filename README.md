@@ -4,6 +4,7 @@ Welcome! This is a page for some interactive science/math visualizations/simulat
 
 ##### Table of Contents  
 [Dynamical Systems and Bifurcations](#dynsystems)
+
 -[Hopf Bifurcation](#hopfbifurc)
 
 <a name="dynsystems"/>
@@ -26,6 +27,7 @@ Here is an example which was created using the Hopf bifurcation with the motes i
 This circular eddy is called a limit cycle. In this case it is an attractive limit cycle, meaning nearby points are sucked into its orbit. Systems with attractive limit cycles exhibit spontaneous oscillation
 
 <a name="hopfbifurc"/>
+
 ### Hopf Bifurcation
 
 [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
