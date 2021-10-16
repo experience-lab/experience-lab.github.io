@@ -11,3 +11,13 @@ Welcome! This is a page for some interactive science/math visualizations/simulat
 * [Swallow tail bifurcation](https://experience-lab.github.io/swallowtail/)
 
 * [Fitzhugh-Nagumo model](https://experience-lab.github.io/FitzHugh-Nagumo/)
+
+Geometry
+
+* [Hopf Fibration](https://math.berkeley.edu/~ragnar/hopf-explorer/)
+
+* Spinors and Belt Tricks
+
+Statistical Mechanics
+
+* [XY Model](http://math.berkeley.edu/~ragnar/xy)
