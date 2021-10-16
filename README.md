@@ -14,8 +14,9 @@ where f is a function from V to V. It can be useful to picture f as a vector fie
 
 Here is an example which was created using the Hopf bifurcation with the motes intially arranged as an evenly spaced grid. As the time progresses, they are caught up in the flow and pulled towards the circular eddy.
 
+<p align="center">
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/6211319/137596260-adfe9cf7-8608-4118-ba0f-4bb99c52b391.png">
-
+</p>
 
 
 [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
