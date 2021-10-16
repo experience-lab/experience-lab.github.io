@@ -3,9 +3,10 @@
 Welcome! This is a page for some interactive science/math visualizations/simulations I've written for the browser (these will likely not function on mobile). Below you will find some links. I plan to record some videos explaining how to use them.
 
 ##### Table of Contents  
-[Dynamical Systems and Bifrucations](## Dynamical Systems and Bifurcations)  
+[dynsystems](Dynamical Systems and Bifurcations)
 
 ## Dynamical Systems and Bifurcations
+<a name="dynsystems"/>
 
 A dynamical system is a way of talking about a system evolving in time. It is composed of a space of configurations of the system and a prescription for the time evolution of those configurations. One class of dynamical systems describes the configuration as a vector v in some n-dimensional vector space V and specifies the time evolution by giving a formula for the rate of change of v which looks like
 
