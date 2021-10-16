@@ -14,7 +14,7 @@
 
 * [Fitzhugh-Nagumo model](https://experience-lab.github.io/FitzHugh-Nagumo/)
 
-A dynamical system is a way of talking about a system evolving in time. It is composed of a space of configurations of the system and a prescription for the time evolution of those configurations. One class of dynamical systems describes the configuration as a vector v in some n-dimensional vector space V and specifies the time evolution by giving a formula for the rate of change of v which looks like
+A dynamical system is a way of talking about a system evolving in time. It is composed of a space of configurations and a prescription for the time evolution of those configurations. One class of dynamical systems describes the configuration as a vector v in some n-dimensional vector space V and specifies the time evolution by giving a formula for the rate of change of v which looks like
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\frac{dv}{dt} = f(v)">
@@ -34,13 +34,19 @@ Here is an example which was created using the Hopf bifurcation with the motes i
 
 This circular eddy is an example of a limit cycle. In this case it is an attractive limit cycle, meaning nearby points are sucked into its orbit. Systems with attractive limit cycles exhibit spontaneous oscillation. For example, the air blown into a woodwind instrument or across a blade of grass excites a spontaneous oscillation of the reed and can be turned into music by tuning the resonant cavity of the instrument.
 
-This phenomenon can be simplified by considering a fluid flowing in a plane perpendicular to an infinitely long cylinder. Here is a video from the American Physical Society's Gallery of Fluid Motion which nicely shows the progression from a steady flow to an oscillating flow.
+This phenomenon can be simplified by considering a fluid flowing in a plane perpendicular to an infinitely long cylinder. Here is a video from the American Physical Society's Gallery of Fluid Motion which nicely shows the progression from a steady flow to an oscillating flow:
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pW0JfEBE9h8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-Although the system has infinitely many variables (its configuration is itself a vector field) and intricate phenomena, including turbulence, the transition from steady to oscillating can be understood in a two-variable model. Transitions like these in dynamical systems are called bifurcations
+Although the system has infinitely many variables (its configuration is itself a vector field) and displays intricate phenomena including turbulence, the transition from steady to oscillating can be understood in a two-variable model called the Hopf bifurcation. Transitions like these in dynamical systems are generally called bifurcations and the classification of bifurcations is a problem in topology.
+
+The Hopf bifurcation has three relevant parameters a, b, and c. As an equation we can write it
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dz}{dt} = c + a z + b \bar{z} + z |z|^2">
+</p>
 
 * [Hopf bifurcation](https://experience-lab.github.io/hopf-bifurcation/)
 
