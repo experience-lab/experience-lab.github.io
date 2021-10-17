@@ -20,22 +20,22 @@ Other organizations:
 
 https://www.nyas.org/
 
-#Youtube
+# Youtube
 
-###Math
+### Math
 
 [numberphile](https://www.youtube.com/user/numberphile) 
 
 [3blue1brown](https://www.youtube.com/c/3blue1brown)
 
-###Engineering
+### Engineering
 
 [smarter every day](https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA)
 
-###Biology
+### Biology
 
 [PBS eons](https://www.youtube.com/channel/UCzR-rom72PHN9Zg7RML9EbA)
 
-###Academic
+### Academic
 
 [IHES](https://www.youtube.com/channel/UC4R1IsRVKs_qlWKTm9pT82Q)
