@@ -1,6 +1,6 @@
 # The Internet Science Experience Lab
 
-Welcome! This is a page for some interactive science/math visualizations/simulations I've written for the browser (these will likely not function on mobile, please use a computer and a modern browser such as firefox or chrome). Below you will find some links. I'm in the process of writing up some background and instructions.
+Welcome! This is a page for some interactive science/math visualizations/simulations I've written for the browser (these will likely not function on mobile, please use a computer and a modern browser such as firefox or chrome). Below you will find some links. I'm in the process of writing up some background and instructions. [Here](https://experience-lab.github.io/philosophy) is a little bit more about this place.
 
 ##### Table of Contents  
 
