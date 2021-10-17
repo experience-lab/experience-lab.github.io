@@ -16,6 +16,8 @@ Geometry
 
 * [Hopf Fibration](https://math.berkeley.edu/~ragnar/hopf-explorer/)
 
+* [Wallpaper Groups](https://topological-ragnar.github.io/kaleidoscopia/)
+
 * Spinors and Belt Tricks
 
 Statistical Mechanics
