@@ -1,6 +1,6 @@
 # Philosophy
 
-What am I up to here? I'm not exactly sure. A simple reason goal is to host my web creations somewhere convenient that I can share with people. But I also might entertain a greater ambition with this metaproject, which is to create a kind of math and science museum on the web which inspires curiosity and exploration and is accesible to anyone with a computer and an internet connection.
+What am I up to here? I'm not exactly sure. A simple goal is to host my web creations somewhere convenient that I can share with people. But I also might entertain a greater ambition with this metaproject, which is to create a kind of math and science museum on the web which inspires curiosity and exploration and is accesible to anyone with a computer and an internet connection.
 
 The online world of science education and outreach is already vast, with most of it happening on youtube. There are many excellent videos, but the medium lacks the interactive quality that a webapp can acheive. I think it's very hard to watch a video or even a lecture and take away something meaningful. It's the reason we assign problem sets. I strive to create things that inspire questions, and give the means to explore those questions in the simulation. They're (mostly) not just animations one watches, but instead little experiments that reveal their secrets only after you've played with them for a bit.
 
