@@ -32,6 +32,12 @@ https://www.nyas.org/
 
 [smarter every day](https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA)
 
+[engineerguy](https://www.youtube.com/channel/UC2bkHVIDjXS7sgrgjFtzOXQ)
+
+[Scott Manley](https://www.youtube.com/c/szyzyg)
+
+[Robert Murray-Smith](https://www.youtube.com/c/RobertMurraySmith)
+
 ### Biology
 
 [PBS eons](https://www.youtube.com/channel/UCzR-rom72PHN9Zg7RML9EbA)
@@ -39,3 +45,9 @@ https://www.nyas.org/
 ### Academic
 
 [IHES](https://www.youtube.com/channel/UC4R1IsRVKs_qlWKTm9pT82Q)
+
+[Nature Video](https://www.youtube.com/user/NatureVideoChannel)
+
+# Misc
+
+[National Committee for Fluid Mechanics Films](http://web.mit.edu/hml/ncfmf.html)
