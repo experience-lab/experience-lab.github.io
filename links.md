@@ -16,11 +16,16 @@ https://dib.harvard.edu/women-color-project-harvard
 
 https://sept.mit.edu/apply#:~:text=In%202020%2C%20we%20will%20accept,dedicated%20leaders%20in%20their%20communities
 
-Other organizations:
-
 https://www.nyas.org/
 
-# Youtube
+# Interesting Things
+
+[National Committee for Fluid Mechanics Films](http://web.mit.edu/hml/ncfmf.html)
+
+[Visualization of Exotic 7-Spheres by Niles Johnson](https://nilesjohnson.net/seven-manifolds.html)
+
+
+# Youtube Channels
 
 ### Math
 
@@ -47,9 +52,3 @@ https://www.nyas.org/
 [IHES](https://www.youtube.com/channel/UC4R1IsRVKs_qlWKTm9pT82Q)
 
 [Nature Video](https://www.youtube.com/user/NatureVideoChannel)
-
-# Other Interesting Things
-
-[National Committee for Fluid Mechanics Films](http://web.mit.edu/hml/ncfmf.html)
-
-[Visualization of Exotic 7-Spheres by Niles Johnson](https://nilesjohnson.net/seven-manifolds.html)
