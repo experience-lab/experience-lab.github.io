@@ -1,4 +1,4 @@
-Programs for students:
+# Programs for students:
 
 https://misemaths.wordpress.com/
 
@@ -12,7 +12,7 @@ https://www.iypt.org/problems/problems-for-the-33rd-iypt-2020/
 
 https://dib.harvard.edu/women-color-project-harvard
 
-Programs for teachers:
+# Programs for teachers:
 
 https://sept.mit.edu/apply#:~:text=In%202020%2C%20we%20will%20accept,dedicated%20leaders%20in%20their%20communities
 
@@ -48,6 +48,8 @@ https://www.nyas.org/
 
 [Nature Video](https://www.youtube.com/user/NatureVideoChannel)
 
-# Misc
+# Other Interesting Things
 
 [National Committee for Fluid Mechanics Films](http://web.mit.edu/hml/ncfmf.html)
+
+[Visualization of Exotic 7-Spheres by Niles Johnson](https://nilesjohnson.net/seven-manifolds.html)
