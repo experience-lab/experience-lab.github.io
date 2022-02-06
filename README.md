@@ -26,4 +26,4 @@ Statistical Mechanics
 
 Links
 
-* [Links](https://experience-lab.github.io/links/)
+* [Links](https://experience-lab.github.io/links)
