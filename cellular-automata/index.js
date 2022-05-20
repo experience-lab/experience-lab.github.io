@@ -5,7 +5,7 @@ const canvas = document.getElementById("canvas")
 
 var height = window.innerHeight
 var xmax = window.innerWidth
-var ymax = height+200
+var ymax = height
 
 var ctx = canvas.getContext('2d')
 
@@ -40,11 +40,11 @@ var direction = 1
 
 var go = false
 
-window.addEventListener("resize",(e) => {
-    if(window.innerWidth != ctx.canvas.width){
-        stopAndGo()
-    }
-})
+// window.addEventListener("resize",(e) => {
+//     if(window.innerWidth != ctx.canvas.width){
+//         stopAndGo()
+//     }
+// })
 
 window.addEventListener("load",begin)
 
@@ -52,7 +52,7 @@ window.addEventListener("load",begin)
 function begin(){
     height = window.innerHeight
     xmax = window.innerWidth
-    ymax = height+200
+    ymax = height
     ctx.canvas.width = xmax
     ctx.canvas.height = ymax
     xmax = Math.floor(xmax/blockSize)
