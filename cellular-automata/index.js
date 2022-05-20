@@ -50,8 +50,8 @@ window.addEventListener("load",begin)
 
 
 function begin(){
-    height = document.getElementById("stuff").clientHeight
-    xmax = xmax = document.body.clientWidth
+    height = window.innerHeight
+    xmax = window.innerWidth
     ymax = height+200
     ctx.canvas.width = xmax
     ctx.canvas.height = ymax
