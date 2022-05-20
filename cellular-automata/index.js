@@ -3,8 +3,10 @@
 
 const canvas = document.getElementById("canvas")
 
-var xmax = window.innerWidth
-var ymax = window.innerHeight
+var height = document.getElementById("stuff").clientHeight
+// var xmax = window.innerWidth
+var xmax = document.body.clientWidth
+var ymax = height+200
 
 var ctx = canvas.getContext('2d')
 
@@ -34,51 +36,84 @@ var ruleNumber = Math.floor(Math.random()*numRules)
 var seedRadius = 10
 
 var row = []
-for(x = 0; x < xmax; x++){
-    row.push(0)
-}
-
 var y = 0
 var direction = 1
 
-render()
+var go = false
+
+window.addEventListener("resize",(e) => {
+    if(window.innerWidth != ctx.canvas.width){
+        stopAndGo()
+    }
+})
+
+window.addEventListener("load",begin)
+
+
+function begin(){
+    height = document.getElementById("stuff").clientHeight
+    xmax = xmax = document.body.clientWidth
+    ymax = height+200
+    ctx.canvas.width = xmax
+    ctx.canvas.height = ymax
+    xmax = Math.floor(xmax/blockSize)
+    ymax = Math.floor(ymax/blockSize)
+
+    y = 0
+    direction = 1
+    row = []
+    for(x = 0; x < xmax; x++){
+        row.push(Math.floor(Math.random()*numColors))
+    }
+
+    go = true
+
+    render()
+}
+
+function stopAndGo(){
+    go = false
+    setTimeout(begin,10)
+}
 
 function render() {
-
-    //clear next row
-    ctx.clearRect(0,y*blockSize,xmax*blockSize,blockSize)
-    for(x = 0; x < xmax; x++){
-        pixel(x,y,row[x])
-    }
-
-    //compute next row
-    row = nextRow(row,ruleNumber)
-
-    //draw next row
-    if(y < ymax/2+seedRadius && y > ymax/2-seedRadius){
-        r = Math.sqrt(seedRadius*seedRadius-Math.pow(y - ymax/2,2))
-        for(i = 0; i < 2*r; i++){
-            row[Math.floor(xmax/2-r)+i] = 100
+    if(go){
+        //clear next row
+        ctx.clearRect(0,y*blockSize,xmax*blockSize,blockSize)
+        for(x = 0; x < xmax; x++){
+            drawPixel(x,y,row[x])
         }
-    }
 
-    //reverse if at boundary
-    if(y == ymax-1){
-        direction = -1
-        ruleNumber = Math.floor(Math.random()*numRules)
-        rgbColors = updateRgbColors()
-        colors = rgbColors.map(rgbToHex)
-    }
-    else if(y == 0){
-        direction = 1
-        ruleNumber = Math.floor(Math.random()*numRules)
-        rgbColors = updateRgbColors()
-        colors = rgbColors.map(rgbToHex)
-    }
+        //compute next row
+        row = nextRow(row,ruleNumber)
 
-    //iterate and recurse
-    y+=direction
-    setTimeout(render,8)
+        //draw next row
+        if(y < ymax/2+seedRadius && y > ymax/2-seedRadius){
+            r = Math.sqrt(seedRadius*seedRadius-Math.pow(y - ymax/2,2))
+            for(i = 0; i < 2*r; i++){
+                row[Math.floor(xmax/2-r)+i] = 1
+            }
+        }
+
+        //reverse if at boundary
+        if(y >= ymax-1){
+            direction = -1
+            ruleNumber = Math.floor(Math.random()*numRules)
+            rgbColors = updateRgbColors()
+            colors = rgbColors.map(rgbToHex)
+        }
+        else if(y == 0){
+            direction = 1
+            ruleNumber = Math.floor(Math.random()*numRules)
+            rgbColors = updateRgbColors()
+            colors = rgbColors.map(rgbToHex)
+        }
+
+        //iterate and recurse
+        y+=direction
+        setTimeout(render,8)
+    }
+    
 }
 
 function nextRow(lastRow,n){
@@ -129,7 +164,7 @@ function updateRgbColors(){
     return result
 }
 
-function pixel(x,y,p){
+function drawPixel(x,y,p){
     ctx.fillStyle = colors[p]
     ctx.fillRect(x*blockSize,y*blockSize,blockSize,blockSize)
 }
