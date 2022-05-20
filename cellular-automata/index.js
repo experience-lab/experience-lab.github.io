@@ -3,9 +3,8 @@
 
 const canvas = document.getElementById("canvas")
 
-var height = document.getElementById("stuff").clientHeight
-// var xmax = window.innerWidth
-var xmax = document.body.clientWidth
+var height = window.innerHeight
+var xmax = window.innerWidth
 var ymax = height+200
 
 var ctx = canvas.getContext('2d')
